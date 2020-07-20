@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Card from './Card';
+import './List.css';
 
 class List extends React.Component {
   generateCards() {
