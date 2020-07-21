@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import Card from './Card';
 import './List.css';
@@ -15,12 +13,13 @@ class List extends React.Component {
     // }
 
     const cardElems = this.props.cards.map(card => <Card title={card.title} content={card.content}/>);
-
+// generating each card, mapping through allCards to create a new array
     return cardElems;
   }
   
   render() {
     return (
+      // list template
       <section class="List">
         <header class="List-header">
           <h2>{this.props.header}</h2>

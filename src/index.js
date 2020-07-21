@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+// taking App component and rendering this in the DOM at the rootID
 ReactDOM.render(
   <React.StrictMode>
     <App />
